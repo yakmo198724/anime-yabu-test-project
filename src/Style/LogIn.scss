@@ -1,0 +1,276 @@
+$blackColor: rgb(24,24,24);
+$whiteColor: rgb(255,255,255);
+$darkOrchidColor: rgb(62,17,73);
+$bubbleGum: rgb(202,56,237);
+$Crayola: rgb(228,135,251);
+$grey: rgb(196, 196, 196);
+$darkGreyColor:rgba(255, 255, 255, 0.47);
+$lightPink: rgb(255, 153, 230);
+
+/*Re-usable color section*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1440px) {
+    .html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+  }
+
+/*Default page section upper part*/
+
+.rightDisplay span {
+    color: $bubbleGum;
+}
+
+.rightDisplay h1 {
+    font-size: 60px;
+    margin-top: -7px;
+    margin-left: 141px;
+    color: $whiteColor;    
+}
+
+.rightDisplay img {
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.rightDisplay p {
+    position: absolute;
+    width: 520px;
+    height: 80px;
+    left: 51px;
+    top: 498px;
+    color: $whiteColor;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    }
+
+.rightDisplay {
+        position: absolute;
+        width: 720px;
+        height: 1012px;
+        left:715px;
+        top: 0px;
+        background-color: $darkOrchidColor;
+    }
+
+.shapes-01 {
+    height: 4px;
+    width: 33px;
+    border-radius: 12%;
+    background-color: $grey;
+    cursor:pointer;
+  }
+
+.shapes-01:hover {
+    background-color: $lightPink;
+  }
+
+.shapes-02 {
+    height: 4px;
+    width: 33px;
+    border-radius: 12%;
+    background-color: $grey;
+    cursor:pointer;
+  }
+  .shapes-02:hover {
+    background-color: $lightPink;
+  }
+
+.shapes-03 {
+    height: 4px;
+    width: 33px;
+    border-radius: 12%;
+    background-color: $grey;
+    cursor:pointer;
+  }
+.shapes-03:hover {
+    background-color: $lightPink;
+  }
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 90px;
+    margin-left: 250px;
+  }
+
+div .shapes-01 .shapes-02 .shapes-03 {
+    background-color: $grey;
+}
+
+/*End of Display Section*/
+
+.navbar {
+    position: relative;
+    width: 1440px;
+    height: 1012px;
+    background-color: $blackColor;
+    
+    
+}
+
+div .header-section{
+    display: flex;
+    gap: 4px;
+    margin-top: 12px;
+    margin-left: 11px;
+}
+
+.navbar span {
+    color: $bubbleGum;
+    cursor:pointer;
+}
+
+.navbar img {
+    width: 40px;
+}
+
+.navbar h4 {
+    margin-top: 10px;
+    color: $whiteColor;
+    cursor:pointer;
+}
+
+.back-link img {
+    width: 35px;
+    margin-left: 11px;
+}
+
+.form-container p {
+    color: $whiteColor;
+    margin-left: 20px;
+}
+
+.form-container img {
+    width: 110px;
+    margin-left: 296px;
+    margin-top: -13px;
+} 
+
+.form-container h2 {
+    color: $whiteColor;
+    margin-left: 295px;
+    margin-top: -17px;
+}
+
+.form-container p {
+    color: $whiteColor;
+    margin-left: 308px;
+    margin-top: -1px;
+    font-size: 13px;
+}
+
+.password-field01 {
+    display: flex;
+    gap: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-left: 210px;
+}
+
+.password-field01 p {
+    color: $whiteColor;
+    margin-top: 7px;
+    margin-bottom: -7px;
+    font-size: 12px;
+}
+
+.password-field01 img {
+    margin-left: -52px;
+    margin-bottom: -12px;
+    cursor: pointer;
+}
+
+.password-field01 input {
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    outline-color: $whiteColor;
+    height: -60px;
+    font-size: 18px;
+    width: 270px;
+    border-radius: 7px;
+    background: $darkGreyColor;
+}
+
+.password-field01 label {
+    color: $whiteColor;
+}
+
+.button-01{
+    background-color: $Crayola;
+    border: none;
+    width: 265px;
+    border-radius: 7px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.flex-container01 {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .flex-container01 p {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+.flex-container01 .shapes-01 {
+    margin-top: 7px;
+    height: 3px;
+    width: 70px;
+}
+
+.flex-container01 .shapes-02 {
+    margin-top: 7px;
+    height: 3px;
+    width: 70px;
+}
+
+.flex-container02 {
+    margin-top: -24px;
+    margin-left: -57px;    
+}
+
+.flex-container02 img {
+    display: inline;    
+    margin-left: 20px;
+    width: 70px;
+}
+
+
+.flex-container02 p {
+    padding-bottom: 70px; 
+    margin-left: 125px;
+}
+
+.flex-container02 .sm-icon1 {
+margin-left: 70px;
+ margin-top: 20px;
+}
+
